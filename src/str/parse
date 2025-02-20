@@ -1,0 +1,15 @@
+// <parse> -*- C++ -*-
+/**
+ * @file include/wax/str/parse
+ */
+
+#ifndef __WAXLIB_STR_PARSE__
+#define __WAXLIB_STR_PARSE__ 1
+
+#include "impl/cstr.hpp"
+#include "impl/hash.hpp"
+#include "impl/dict.hpp"
+#include "impl/dict.hpp"
+#include "impl/parse.hpp"
+
+#endif /* __WAXLIB_STR_PARSE__ */

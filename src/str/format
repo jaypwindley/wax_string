@@ -1,0 +1,11 @@
+// <format> -*- C++ -*-
+/**
+ * @file include/wax/str/format
+ */
+
+#ifndef __WAXLIB_STR_FORMAT__
+#define __WAXLIB_STR_FORMAT__ 1
+
+#include "impl/format.hpp"
+
+#endif /* __WAXLIB_STR_FORMAT__ */

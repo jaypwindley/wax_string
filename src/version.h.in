@@ -1,0 +1,26 @@
+#ifndef __WAX_STRING_LIB_VERSION_H__
+#define __WAX_STRING_LIB_VERSION_H__
+
+// Configured by cmake during build.  Canonical version number is in
+// CMakeLists.txt.
+#define WAX_STRING_LIB_VERSION_STR   "@PROJECT_VERSION@"
+#define WAX_STRING_LIB_VERSION_MAJOR  @PROJECT_VERSION_MAJOR@
+#define WAX_STRING_LIB_VERSION_MINOR  @PROJECT_VERSION_MINOR@
+#define WAX_STRING_LIB_VERSION_PATCH  @PROJECT_VERSION_PATCH@
+
+namespace wax {
+namespace str {
+
+struct __version {
+  const char * const str;
+  int major;
+  int minor;
+  int patch;
+};
+
+extern struct __version lib_version;  // Allocated in libmain.cpp
+
+} // namespace str
+} // namespace wax
+
+#endif /* __WAX_STRING_LIB_VERSION_H__ */

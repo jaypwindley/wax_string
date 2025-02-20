@@ -1,0 +1,17 @@
+// <edit> -*- C++ -*-
+/**
+ * @file include/wax/str/edit
+ */
+
+#ifndef __WAXLIB_STR_EDIT__
+#define __WAXLIB_STR_EDIT__ 1
+
+#include "impl/compose.hpp"
+#include "impl/cstr.hpp"
+#include "impl/hash.hpp"
+#include "impl/dict.hpp"
+#include "impl/parse.hpp"
+
+#include "impl/edit.hpp"
+
+#endif /* __WAXLIB_STR_EDIT__ */

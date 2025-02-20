@@ -1,0 +1,11 @@
+// <compose> -*- C++ -*-
+/**
+ * @file include/wax/str/compose
+ */
+
+#ifndef __WAXLIB_STR_COMPOSE__
+#define __WAXLIB_STR_COMPOSE__ 1
+
+#include "impl/compose.hpp"
+
+#endif /* __WAXLIB_STR_COMPOSE__ */

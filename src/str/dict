@@ -1,0 +1,13 @@
+// <dict> -*- C++ -*-
+/**
+ * @file include/wax/str/dict
+ */
+
+#ifndef __WAXLIB_STR_DICT__
+#define __WAXLIB_STR_DICT__ 1
+
+#include "impl/cstr.hpp"
+#include "impl/hash.hpp"
+#include "impl/dict.hpp"
+
+#endif /* __WAXLIB_STR_DICT__ */
